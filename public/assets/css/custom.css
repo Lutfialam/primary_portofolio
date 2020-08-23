@@ -1,0 +1,273 @@
+/**
+ *
+ * You can write your CSS code here, DO NOT touch the default JavaScript file
+ * because it will make it harder for you to update.
+ * 
+ */
+
+/*# sourceMappingURL=custom.css.map */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+#app {
+    position: relative;
+    overflow: hidden;
+}
+
+@media (min-width: 992px) {
+    /* retangle area */
+
+    .retangle__main__blue {
+        position: absolute;
+        width: 964px;
+        height: 560px;
+        left: 650.53px;
+        top: -275px;
+
+        background: linear-gradient(91.32deg, #2D9CDB 65.8%, #2F80ED 96.14%), #6A84E0;
+        border-radius: 100px;
+        transform: rotate(14.75deg);
+    }
+
+    .retangle__main__second {
+        z-index: -4;
+        margin-top: -150px;
+        position: absolute;
+        width: 964px;
+        height: 600px;
+        left: -385.87px;
+
+        background: linear-gradient(91.32deg, #2D9CDB 65.8%, #2F80ED 96.14%), #6A84E0;
+        border-radius: 100px;
+        transform: rotate(22.81deg);
+    }
+
+    .retangle__main__third {
+        position: absolute;
+        width: 1074px;
+        height: 600px;
+        left: 1064.18px;
+
+        background: linear-gradient(91.32deg, #2D9CDB 65.8%, #2F80ED 96.14%), #6A84E0;
+        border-radius: 100px;
+        transform: rotate(23.54deg);
+    }
+
+    .img__header {
+        width: 35rem;
+        margin-top: -60px;
+    }
+
+    .small__retangle__right {
+        z-index: -2;
+        position: absolute;
+        width: 162px;
+        height: 162px;
+        left: 1132.33px;
+        margin-top: -70px;
+
+        background: linear-gradient(91.32deg, #2D9CDB 65.8%, #2F80ED 96.14%), #6A84E0;
+        border-radius: 50px;
+        transform: rotate(26.52deg);
+    }
+
+    .small__retangle__left {
+        z-index: -2;
+        position: absolute;
+        width: 162px;
+        height: 162px;
+        left: 14.33px;
+        margin-top: 220px;
+
+        background: linear-gradient(91.32deg, #2D9CDB 65.8%, #2F80ED 96.14%), #6A84E0;
+        border-radius: 50px;
+        transform: rotate(26.52deg);
+    }
+
+    /* end section document info */
+
+    .nav__custom {
+        margin-left: -200px;
+    }
+
+    .image__profile {
+        width: 400px;
+        border-radius: 0px 100px;
+    }
+
+    section.header h3 {
+        font-size: 40px;
+    }
+
+    section.header h1 {
+        font-size: 65px;
+    }
+
+    section.header h5 {
+        font-size: 24px;
+    }
+
+    section.header {
+        margin-top: 140px;
+    }
+
+    .about__image {
+        width: 20rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .about__image {
+        width: 20rem;
+    }
+
+    /* retangle area */
+    section.header {
+        margin-top: 40px;
+    }
+
+    .retangle__main__blue {
+        position: absolute;
+        width: 964px;
+        height: 560px;
+        left: 650.53px;
+        top: -275px;
+
+        background: linear-gradient(91.32deg, #2D9CDB 65.8%, #2F80ED 96.14%), #6A84E0;
+        border-radius: 100px;
+        transform: rotate(14.75deg);
+    }
+
+    .retangle__main__second {
+        z-index: -4;
+        margin-top: -250px;
+        position: absolute;
+        width: 964px;
+        height: 600px;
+        left: -385.87px;
+
+        background: linear-gradient(91.32deg, #2D9CDB 65.8%, #2F80ED 96.14%), #6A84E0;
+        border-radius: 100px;
+        transform: rotate(22.81deg);
+    }
+
+    .retangle__main__third {
+        position: absolute;
+        width: 1074px;
+        height: 600px;
+        left: 1064.18px;
+
+        background: linear-gradient(91.32deg, #2D9CDB 65.8%, #2F80ED 96.14%), #6A84E0;
+        border-radius: 100px;
+        transform: rotate(23.54deg);
+    }
+
+    .img__header {
+        z-index: -1;
+        margin-top: -100px;
+        margin-left: 100px;
+        width: 18rem;
+    }
+
+    .small__retangle__right {
+        z-index: -2;
+        position: absolute;
+        width: 162px;
+        height: 162px;
+        left: 1132.33px;
+        margin-top: -70px;
+
+        background: linear-gradient(91.32deg, #2D9CDB 65.8%, #2F80ED 96.14%), #6A84E0;
+        border-radius: 50px;
+        transform: rotate(26.52deg);
+    }
+
+    .small__retangle__left {
+        z-index: -2;
+        position: absolute;
+        width: 162px;
+        height: 162px;
+        left: 14.33px;
+        margin-top: 220px;
+
+        background: linear-gradient(91.32deg, #2D9CDB 65.8%, #2F80ED 96.14%), #6A84E0;
+        border-radius: 50px;
+        transform: rotate(26.52deg);
+    }
+
+    /* end section document info */
+
+    .nav__custom {
+        margin-left: -200px;
+    }
+
+    .image__profile {
+        width: 300px;
+        border-radius: 0px 100px;
+    }
+
+    section.header h3 {
+        font-size: 30px;
+    }
+
+    section.header h1 {
+        font-size: 55px;
+    }
+
+    section.header h5 {
+        font-size: 24px;
+    }
+
+    .nav-link {
+        color: black;
+    }
+}
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.padd__top {
+    padding-top: 100px;
+}
+
+.btn__custom__primary {
+    color: white;
+    background-color: #1565C0
+}
+
+.btn__custom__primary span {
+    padding: 0 42px;
+}
+
+.main__title p {
+    color: #777777;
+}
+
+.badge {
+    vertical-align: middle;
+    padding: 7px 12px;
+    font-weight: 600;
+    letter-spacing: .3px;
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+.badge.badge-primary {
+    background-color: #6777ef;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 700px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 700px;
+}
